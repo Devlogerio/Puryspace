@@ -1,0 +1,173 @@
+//map
+Map is now circular $
+Gps is now CIrcular $
+Map should be change and if possible with tiles $
+Map background with 3d like paricles
+Map gridy $
+GPS Map should be made $
+We wont have two maps anymore, all map things should be commented $
+
+//movement
+Movement should be with mouse $
+movement for Astroids and Mother Ship, Planets $
+
+//bullets
+Players can shoot fuels
+Make bullet damages right
+Bullets must be buyable $
+Instead of bullet update we should have multiple bullets $
+Scroll gun change get remove $
+Mine should look like Mine $
+We should have homming missle $
+Wave reduces the speed of incomming bullets $
+Diffrent Bullet Kinds should be refactored $
+Diffrent Bullet Kinds should be in new js file $
+Friendly Fire $
+Missle bullets should change and have new face $
+Bullets must collide with Stones $
+Bullets now pushes the stones $
+Each gun should have diffrent stats for its bullets $
+Bullets should have penetration $
+Bullets should change  a bit when collide with eachother $
+Bullets should collide and reduce penetrationn no longer needed $
+In case bullets may deviant after collision, too much calculation so we leave it $
+
+//player
+Players wont generate hp if they dont have fuel
+Fuel should be add to itemlist for buying
+When players go out of fuel they get stop, if they have money so they buy fuel, if not, a friend should give them fuel
+Players lost hp on colliding with stones
+Players with same party code should identify eachother
+Players should see eachother hp and fuel and name and gun
+Player speed drops when he gains power
+Players must be able to change color after death $
+Players choose color for their ufos $
+Player stops slowly after turning the engine off $
+Save Parties should see each other as party $
+Players now push stones after collision $
+Players must have nitro $
+Players Collide with stones $
+Players must not spawn inside a stone $
+Players must collide $
+Choose between varios guns with mouse scroll $
+Players has engine fire $
+Refactor player draw by using drawPolygon function which is unused yet, we wont use it becouse the function only make polygons with same size sides $
+Player.isDead should be fixed in server $
+Players on first respawn should not spawn under stones $
+Party system $
+Refactor playerUpdate and its speed $
+Shoot bullet on edge fix, nothing special $
+Shooting spam fix $
+Sprites should be added, we use shapes instead $
+CheckLevel for upgrades should be used (not anymore) $
+Upgrade stats: max hp, hp regen, nitro regen, speed (not anymore) $
+Upgrade weopons: all (changed) $
+Nitro speed should be realative to speed for upgrades $
+Upgrade to new UFOs (not anymore) $
+Player size should change du to power
+Using Database to store upgrades, no need anymore $
+Players most have level (Not anymore) $
+Players most have fuel $
+Inventory for new levels and abilities or items, inventory should be remove $
+
+//Environment or enemies
+Shooting Stars
+We should have fuel stations
+We should have enemies with ai around fuel station
+Clouds to hide behind
+Walls to collide
+Enemies maybe with AI
+Astroids $
+Planets $
+Mother Ships for upgrades or refill and hp, no longer need (no more needed) $
+
+//Mekanisms
+Generating X and Y inside Circle should be fix(the algorythm doesnt work well but we use it) $
+Stones get pushed when player collides with it $
+Prevent default mouse other buttons, not possible $
+Alert when leaving the game $
+Fix the bullet stats $
+Fix stones go ghost when bullets have certain damage $
+Stones should be floating $
+Optimize stone hp and radius $
+Optimize stone movement $
+Put the emit of gunChange outside the scrollwheel so it will be called less, we get to this later $
+Player canvas should get bigger when choosing snipe and get back to normal otherwise $
+Parallel shooting (couldnt implement) $
+There most be item drop system (no more needed) $
+The game should be too long
+Map resizes to the amount of players(removed for now) $
+Players after a distance cannot see each other anymore, even their data wont send from server to that user cuz other player is too far(client calculate all these for now) $
+
+//UI
+All collors and shapes should be upgrated to a new nice design
+Make a better Scroll Gun $
+Draw Circle Console on a new canvas $
+Nitro bar $
+Fuel bar $
+Leader Board
+On gun scroll player should see a progress before loading the new gun (no longer is in use) $
+Canvas on resize should change to fit the middle of screen on 16/9 ratio $
+Prevent using html inside chat except webmaster $
+Sending html via chat be available for webmaster $
+Bring all the ui system from old version $
+
+//Refactoring
+Use TO_RADIANS variable for all the places
+We need alot of change in entity/entity inheritance to lughen the atributes of objects
+Change fuel bar with cloclwise true fasle in arc properties
+Implement better and less expensive draw performance
+Refactor bullet Draw in client side
+Refactor shoot bullet system becouse its so important $
+Fix the score and upgradeXp and upgradeXpMax so upgradeXpMax will be calculated from score itself (changed to only score) $
+Remove Inventory system at all $
+Create Diagrams for the entire game
+Optimize the getCollision for stones to return array full of stone resaults so our problem will be solved $
+Refactoring the Stone.List looping throw in another function for collisions semms impossible becouse it gives us in order $
+Player and Bullet collision with stones are same so refactor them $
+Optimize the code in gpsDraw on client sides $
+Add comment to where ever you forgot $
+Oprimize client resize canvas on snipe
+Maybe using a new library instead of canvas like webgl or something else (no need) $
+Use P5js library (no need) $
+Use clustering
+Herku suggested cluster form https://devcenter.heroku.com/articles/node-concurrency
+Use https://medium.freecodecamp.org/scaling-node-server-isolate-expensive-tasks-in-forked-process-bbba685aad9
+Use https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc
+Use https://adamnengland.wordpress.com/2013/01/30/node-js-cluster-with-socket-io-and-express-3/
+distance/time = speed but we are using velocity, velocity is nothing but speed with direction $
+
+for clustring use bellow code:
+const throng = require('throng');
+
+const WORKERS = process.env.WEB_CONCURRENCY || 1;
+const PORT = process.env.PORT || 2000;
+const BLITZ_KEY = process.env.BLITZ_KEY;
+
+throng({
+  workers: WORKERS,
+  lifetime: Infinity
+}, start);
+
+function start() {
+
+//code inside here
+//make sure you have change this code
+serv.listen(PORT,onListen()); //port with heroku is a bit diffrent and we should use a port instead of 2000, for offline just write 2000 inside ()
+
+
+  function onListen() {
+    console.log('Listening on', PORT);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
