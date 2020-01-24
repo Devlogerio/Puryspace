@@ -1,7 +1,7 @@
 # Puryspace
 A multiplayer online .io game made using Html5 Javascript Nndejs and socket.io (no game engine is used) No image, no copied code, everything! EVERYTHING is made by pure javascript, took me lest than 1 year of developement.
 The purest online .io game, In this world, you play as a lonely triangle in a pure space of polygons, Your objective is to gather score by blowing polgons up so you can spend the score to buy better weopons. The genre is FFA (Free for all).
-## This is my ultimate game, Best performance and skill show off, latest technology and code techniques for games implemented, every part of code optimized as possible and fully commented, no line missed
+## This is my ultimate game, Best performance and skill show off, latest technology and code techniques for games implemented, every part of code optimized as possible and fully commented, no line missed, Clustered version added
 
 ## How to play
 Choose your color and pilot around the pure space of polygons, Gain score and spend them to buy new weapon and distory others to find your place between the list of top 10.
