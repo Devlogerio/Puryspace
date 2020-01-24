@@ -4,6 +4,7 @@ The purest online .io game, In this world, you play as a lonely triangle in a pu
 
 ## How to play
 Choose your color and pilot around the pure space of polygons, Gain score and spend them to buy new weapon and distory others to find your place between the list of top 10.
+## Wiki: https://puryspace.wikia.com/wiki/PURY.SPACE_Wiki
 
 ## About the making
 This game is made by Nodejs/Javascript/Socket.io/HTML5, No library is used for visuals
