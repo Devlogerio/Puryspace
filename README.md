@@ -10,6 +10,7 @@ Choose your color and pilot around the pure space of polygons, Gain score and sp
 ## About the making
 This game is made by Nodejs/Javascript/Socket.io/HTML5, No library is used for visuals
 It was made in 2018-2019 as an indie game for competing in .io genre
+# Clustered version included if you want to take advantge of multiple nodes, Note: need adjusments on heroku nodes as well (purchase for multiple nodes aquired)
 
 ## More games like this:
 #http://pury.space
