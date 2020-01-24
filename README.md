@@ -12,8 +12,13 @@ This game is made by Nodejs/Javascript/Socket.io/HTML5, No library is used for v
 It was made in 2018-2019 as an indie game for competing in .io genre
 # Clustered version included if you want to take advantge of multiple nodes, Note: need adjusments on heroku nodes as well (purchase for multiple nodes aquired)
 
-## More games like this:
+## More of my games like this:
 #http://pury.space
+#http://ufowars.space
+#http://sperms.space
+#http://kalamebaz.space
+#http://cyberbugs.space
+#http://aliens.website
 
 ## How to run:
 Install nodejs
