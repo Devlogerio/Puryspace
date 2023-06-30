@@ -13,12 +13,7 @@ It was made in 2018-2019 as an indie game for competing in .io genre
 # Clustered version included if you want to take advantge of multiple nodes, Note: need adjusments on heroku nodes as well (purchase for multiple nodes aquired)
 
 ## More of my games like this:
-#http://pury.space
-#https://lastwar.herokuapp.com/
-#https://sperms.herokuapp.com/
-#https://kalamebazspace.herokuapp.com/
-#https://antclone.herokuapp.com/
-#https://ufowarspace.herokuapp.com/
+https://github.com/Devlogerio?tab=repositories
 
 ## How to run:
 Install nodejs
