@@ -1,4 +1,6 @@
-# Puryspace
+Play now: http://pury.space
+
+# Pury Space
 A multiplayer online .io game made using HTML5 Javascript Nndejs and socket.io (no game engine is used) No image, no copied code, everything! EVERYTHING is made by pure javascript, took me less than 1 year of development.
 The purest online .io game, In this world, you play as a lonely triangle in a pure space of polygons, Your objective is to gather a score by blowing polygons up so you can spend the score to buy better weapons. The genre is FFA (Free for all).
 ## This is my ultimate game, Best performance and skill show off, the latest technology and code techniques for games implemented, every part of code optimized as possible and fully commented, no line missed, Clustered version added
