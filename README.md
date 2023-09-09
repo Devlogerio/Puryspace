@@ -12,15 +12,15 @@ This game is made by Nodejs/Javascript/Socket.io/HTML5, No library is used for v
 It was made in 2018-2019 as an indie game to compete in .io genre
 # Clustered version included if you want to take advantage of multiple nodes, Note: need adjustments on Heroku nodes as well (purchase for multiple nodes required)
 
-## More of my games like this:
-https://github.com/Devlogerio?tab=repositories
-
 ## How to run:
 Install nodejs
 Install libraries (express, socket.io, victor)
 Type (npm install) in the terminal
 Run the server using (node server/server.js) in the terminal
 Open the page on localhost://port (the port is 2000)
+
+## More of my games like this:
+https://github.com/Devlogerio?tab=repositories
 
 ## Contact:
 Made by: Cena Abachi  
