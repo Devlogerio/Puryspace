@@ -22,13 +22,9 @@ Type (npm install) in the terminal
 Run the server using (node server/server.js) in the terminal
 Open the page on localhost://port (the port is 2000)
 
-## Reason of being open source
-Github private repository is forbidden in my country so I decided to make all of my games open source for the public
-
 ## Contact:
 Made by: Cena Abachi  
 Mail: devloger.io@gmail.com 
 Youtube: Devlogerio
 Twitch: Devlogerio
 Instagram: Devlogerio
-
