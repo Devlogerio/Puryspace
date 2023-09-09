@@ -1,4 +1,4 @@
-Play now: pury.space
+Play now: http://pury.space
 
 # Pury Space
 A multiplayer online .io game made using HTML5 Javascript Nndejs and socket.io (no game engine is used) No image, no copied code, everything! EVERYTHING is made by pure javascript, took me less than 1 year of development.
